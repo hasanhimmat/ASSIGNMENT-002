@@ -155,3 +155,52 @@ nav ul li #home {
     color: #7B7C80;
     padding: 10px;
 }
+
+
+article {
+    width: 90%;
+    margin: auto;
+}
+
+
+article .top {
+    text-align: center;
+}
+
+article h2 {
+    font-size: 50px;
+}
+
+article  span {
+    color: #E95A08;
+}
+
+article .top p {
+    color: #7B7C80;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.deals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals div {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/deal-ana.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.deals div h3 {
+    color: #FFFFFF;
+}
+
+.deals div a {
+    color: #FFFFFF;
+}
