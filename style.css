@@ -101,6 +101,8 @@ nav ul li #home {
     display: flex;
     gap: 26px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .cart-area p {
@@ -127,4 +129,29 @@ nav ul li #home {
     border: none;
     margin: 10px 0;
     /* display: block; */
+}
+
+
+.lover {
+    width: 90%;
+    display: flex;
+    gap: 50px;
+    margin: 80px auto;
+}
+
+.love-image {
+    width: 1000px;
+    height: 540px;
+    background-image: url('./images/flower-store.png');
+}
+
+.love-image img {
+    width: 266px;
+    height: 266px;
+}
+
+.love-content ul li {
+    font-size: 22px;
+    color: #7B7C80;
+    padding: 10px;
 }
