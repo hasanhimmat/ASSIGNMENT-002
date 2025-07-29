@@ -241,3 +241,47 @@ article .top p {
     border: none;
     margin: 10px 0;
 }
+
+footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* .brand-info {
+
+} */
+
+.brand-info img{
+    width: 135px;
+    height: 82px;
+}
+
+.brand-info p{
+    color: #7D7E80;
+    font-size: 22px;
+}
+
+
+.primary-links nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-links nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .socials nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .socials nav img{
+    width: 36px;
+    height: 36px;
+}
