@@ -204,3 +204,40 @@ article .top p {
 .deals div a {
     color: #FFFFFF;
 }
+
+
+.join {
+    height: 533px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join-content {
+    text-align: center;
+}
+
+.join-content h2{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.join-content form input{
+    width: 70%;
+    padding: 10px;
+}
+
+.join-content form button{
+    width: 20%;
+    padding: 10px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0;
+}
