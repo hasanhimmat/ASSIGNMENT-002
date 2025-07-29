@@ -73,3 +73,58 @@ nav ul li #home {
     color: #E95A08;
 }
 
+
+.plants {
+    width: 90%;
+    margin: auto;
+}
+
+.plants .top {
+    text-align: center;
+}
+
+.plants h2 {
+    font-size: 50px;
+}
+
+.plants h2 span {
+    color: #E95A08;
+}
+
+.plants .top p {
+    color: #7B7C80;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.cart-area {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.cart-area p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.cart-area h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.cart-area button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0;
+    /* display: block; */
+}
